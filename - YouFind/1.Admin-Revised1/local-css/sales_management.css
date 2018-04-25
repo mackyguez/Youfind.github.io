@@ -1,0 +1,126 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	margin: 0;
+	padding: 0;
+	overflow-y: scroll;
+	width: 1349px;
+	height: auto;
+	font-family: Century Gothic;
+}
+.whole-wrapper {
+	height: auto;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	padding: 0 1px 0 0;
+}
+/*********************/
+.navigation-left {
+	float: left;
+	width: 245px;
+	height: 100%;
+	background: #263238;
+	padding: 1px 1px 250px 1px;
+}
+.navigation-left .logo-container {
+	padding: 1px;
+	height: 105px;
+}
+.navigation-left .logo-container .logo-wrapper {
+	margin: 20px 0 0 0;
+	text-align: center;	
+}
+.navigation-left .logo-container .tagline-wrapper {
+	color: #fff;
+	margin: 1px 0 0 0;
+	text-align: center;
+	font-size: 11px;
+}
+
+.navigation-left .account-container {
+	overflow: hidden;
+	margin: 1px 0 0 0;
+	padding: 20px 1px 1px 1px;
+	height: 105px;
+	border-top: 1px solid #2f4048;
+	border-bottom: 1px solid #2f4048;
+}
+.navigation-left .account-container .dp-wrapper {
+	border-radius: 50%;
+	width: 90%;
+	height: 100%;
+	border: 1px solid #e6e6e4;
+}
+.navigation-left .account-container .dp-container {
+	float: left;
+	width: 25%;
+	height: 55px;
+	margin-left: 10px;
+}
+.navigation-left .account-container .image {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	
+}
+.navigation-left .account-container .info-container {
+	float: right;
+	width: 65%;
+	height: 55px;
+	color: white;
+	font-size: 13px;
+	padding: 10px 1px 1px 1px;
+	margin: 0 11px 0 0;
+}
+.navigation-left .account-container .position {
+	font-size: 10px; 
+	color: #a2a2a2;
+	margin: 1px 0 0 0;
+}
+.navigation-left .account-container p.name {
+	margin: 0; 
+}
+/**********************************************/
+.navigation-left .navigation-links-holder {
+	margin: 5px 0 0 0;
+	padding: 1px 1px 1px 10px;
+	height: auto;
+}
+.navigation-left .navigation-links-holder ul.ul-link {
+	list-style-type: none;
+	padding: 1px;
+	margin: 0;
+}
+.navigation-left .navigation-links-holder ul li {
+	padding: 1px;
+	margin: 0 0 1px 0;
+	height: 40px;
+	line-height: 33px;
+	text-indent: 10px;
+}
+.navigation-left .navigation-links-holder ul li.link-active {
+	border-left: 3px solid #a5ffa1;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	text-indent: 15px;
+	font-size: 15px;
+	height: 43px;
+	line-height: 35px;
+}
+.navigation-left .navigation-links-holder ul.ul-link li .li-link {
+	text-decoration: none; 
+	color: #a2a2a2;
+}
+.navigation-left .navigation-links-holder ul.ul-link li .li-link:hover {
+	color: #fff;
+}
+
+
+/********************/
+.content-right {
+	float: right;
+	width: 1050px;
+}

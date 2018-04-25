@@ -1,0 +1,116 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+	font-size: 12px;
+}
+body {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+.content-wrapper{
+	height: auto;
+	overflow: hidden;
+	width: 100%;
+}
+
+.footer-wrapper {
+	background-color: #333333;
+	width: 100%;
+	height: auto;
+	margin-top: 50px;
+	overflow: hidden;
+}
+.whole-wrapper {
+	height: auto;
+}
+.header-wrapper {
+	width: 100%;
+	height: auto;
+}
+.nav-bar-wrapper{
+	float: left;
+	height: auto;
+	width: 15%;
+	margin: 20px 10px 0 70px;
+	font-size: 13px;
+}
+.right-content-wrapper{
+	float: right;
+	height: auto;
+	width: 73%;
+	margin: 20px 70px 0 10px;
+}
+
+p.user-name{
+	font-size: 20px;
+	margin: 0;
+}
+p.user-verification{
+	font-size: 13px;
+	margin: 0 0 20px 0;
+	color: green;
+}
+p.user-navigation{
+	font-size: 15px;
+	margin: 5px 0;
+	cursor: pointer;
+	color: gray;
+}
+.user-navigation:hover{
+	color: #125965;
+	font-weight: bold;
+}
+
+
+.dashboard-title{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.modal-dialog .modal-content{
+	border: 2px solid #125965;
+}
+.modal-dialog .modal-content .modal-header {
+}
+.modal-dialog .modal-content .modal-header .modal-title {
+	font-size: 20px;
+}
+.modal-dialog .modal-content .modal-header .close {
+	font-size: 25px;
+}
+/**************************************************/
+.modal-dialog .modal-content .modal-body {
+	margin: 1px 0 0 0;
+	overflow: hidden;
+}
+.modal-dialog .modal-content .modal-body .first-name {
+	float: right;
+	width: 70%;
+	margin: 10px 0 10px 0;
+}
+.modal-dialog .modal-content .modal-body .last-name {
+	margin: 10px 0 0 0;
+	width: 100%;
+}
+.modal-dialog .modal-content .modal-body .update-button {
+	clear: both;
+	float: right;
+	margin: 5px 5px 0 0;
+	height: 30px;
+	width: 10;
+	background: #125965;
+	color: #fff;
+}
+/**************************************************/
+.modal-dialog .modal-content .modal-footer {
+	margin: 1px 0 0 0;
+}
+
+.lname-text,
+.fname-text{
+	font-size: 15px;
+	float: left;
+	margin-top: 10px;
+}

@@ -1,0 +1,329 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	padding: 0;
+	margin: 0;
+	width: 1349px;
+	font-family: Century Gothic;
+}
+.whole-wrapper {
+	width: 100%;
+}
+.header-holder {
+}
+p.about-text {
+	margin: 0;
+	color: #125965;
+	font-size: 15px;
+	text-indent: 15px;
+}
+.content-holder {
+	padding: 1px;
+	margin: 1px 0 0 0;
+	overflow: hidden;
+}
+.content-left {
+	float: left;
+	width: 450px;
+	padding: 1px;
+	margin: 40px 0 0 50px;
+}
+.left-upper {
+	padding: 5px 5px 10px 5px;
+	overflow: hidden;
+	height: 152px;
+	border: 1px solid #125965;
+	border-top: 4px solid #125965;
+	border-radius: 4px;
+}
+.left-upper .user-pic-holder-left input.upload-profile-picture {
+	margin: 10px 0 0 0; 
+	text-indent: 25px; 
+	width: 100%; 
+	color: transparent;
+}
+.left-upper div.user-pic-holder-left {
+	float: left;
+	width: 30%;
+	padding: 1px;
+	height: auto;
+}
+.left-upper div.user-pic-holder-left div.user-pic { 
+	border-radius: 50%; 
+	height: 100px; 
+	width: 100px;
+	margin: 0 auto;
+}
+.left-upper div.user-pic-holder-left div.user-pic .user-pic-image {	
+	border-radius: 50%; 
+	width: 100%; 
+	height: 100%;
+}
+.left-upper div.user-pic-holder-left div.user-pic .user-pic-image1 {	
+	border-radius: 50%; 
+	width: 100%; 
+	height: 100%;
+}
+.left-upper div.user-details-holder-right {
+	float: right;
+	width: 69%;
+	height: 104px;
+	padding: 10px 1px 1px 20px;
+}
+.left-upper div.user-details-holder-right .user-name {
+	margin: 0 0 0 0;
+	font-size: 16px;
+	width: 190px;
+	height: 24px;
+	float: left;
+}
+.left-upper div.user-details-holder-right .edit-profile-button {
+	float: left;
+}
+.left-upper div.user-details-holder-right .user-address {
+	margin: 1px 0 1px 0;
+	float: left;
+	font-size: 14px;
+	clear: both;
+	width: 100%;
+	height: 22px;
+}
+.left-upper div.user-details-holder-right .ratings-text {
+	clear: both;
+	font-size: 14px;
+	margin: 0;
+	width: 285px;
+	height: 20px;
+}
+.left-upper div.user-details-holder-right .star-ratings-image {
+	width: 100px;
+	height: 15px;
+	margin: 0;
+}
+/**************************************************************/
+p.insight-text {
+	margin: 10px 0 0 0;
+	font-size: 15px;
+	color: #125965;
+	text-indent: 15px;
+}
+.insights-holder {
+	border: 1px solid #125965;
+	border-top: 2px solid #125965;
+	border-radius: 4px;
+	margin: 1px 0 0 0;
+	padding: 1px;
+	overflow: hidden;
+}
+.insights-holder div.reviews-wrapper {
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+.insights-holder div.items-ordered-wrapper {
+	width: 33%;
+	float: left;
+	text-align: center;
+	margin: 0 0 0 2px;
+}
+.insights-holder div.service-hired-wrapper {
+	width: 33%;
+	float: right;
+	text-align: center;
+}
+.insights-holder div.reviews-wrapper .counting-numbers,
+.insights-holder div.items-ordered-wrapper .counting-numbers, 
+.insights-holder div.service-hired-wrapper .counting-numbers {
+	margin: 0;
+	font-size: 20px;
+	font-weight: bold;
+}
+.insights-holder div.reviews-wrapper .text-bottom,
+.insights-holder div.items-ordered-wrapper .text-bottom, 
+.insights-holder div.service-hired-wrapper .text-bottom {
+	margin: 0;
+}
+/*********************************************************/
+p.wishlist-text {
+	margin: 10px 0 0 0;
+	font-size: 15px;
+	color: #125965;
+	text-indent: 15px;
+}
+.wishlist-holder {
+	border: 1px solid #125965;
+	border-top: 4px solid #125965;
+	border-radius: 4px;
+	padding: 10px 20px 1px 20px;
+	height: 250px;
+	width: 100%;
+}
+.wishlist-holder .product-image-holder {
+	width: 85px;
+	height: 85px;
+	float: left;
+}
+.wishlist-holder .product-image-holder:hover {
+	border: 1px solid #125965;
+}
+.wishlist-holder .product-image-holder .product-image {
+	width: 100%;
+	height: 100%;
+}
+.wishlist-holder .product-name {
+	float: left;
+	margin: 0 0 0 15px;
+	width: 250px;
+	font-size: 14px;
+}
+.wishlist-holder .delete-button {
+	float: right;
+	cursor: pointer;
+	font-size: 14px;
+}
+.wishlist-holder .shop-name {
+	float: left;
+	margin: 1px 0 0 15px;
+	width: 250px;
+}
+.wishlist-holder .product-star-ratings {
+	float: left;
+	width: 100px;
+	height: 15px;
+	margin: 1px 0 0 15px;
+}
+.wishlist-holder .product-description {
+	float: left;
+	margin: 1px 0 0 15px;
+	font-size: 11px;
+}
+.wishlist-holder .wishlist-add-to-cart-holder {
+	clear: both;
+	text-align: center;
+	padding: 0 0 2px 0;
+}
+.wishlist-holder .wishlist-add-to-cart {
+	width: 200px;
+	height: 25px;
+}
+/****************************************/
+.content-right {
+	float: right;
+	width: 750px;
+	height: auto;
+	padding: 1px;
+	margin: 40px 50px 0 0;
+}
+p.activities-text {
+	color: #125965;
+	font-size: 15px;
+	text-indent: 15px;
+	border-bottom: 3px solid #125965;
+}
+.reviewed-division {
+	border-bottom: 1px solid #125965;
+	padding: 10px 1px 10px 1px;
+	overflow: hidden;
+	font-size: 15px;
+}
+.reviewed-division .activities-user-name {
+	color: #125965;
+	float: left;
+	margin: 0 0 1px 15px;
+	font-size: 15px;
+	padding: 0 10px 0 0;
+	cursor: pointer;
+	text-decoration: none;
+	width: 180px;
+}
+.reviewed-division .reviewed-text {
+	float: left;
+	font-size: 15px;
+	margin: 0 0 1px 0;
+	cursor: default;
+}
+.reviewed-division .activities-date {
+	clear: both;
+	margin: 1px 0 1px 20px;
+	font-size: 10px;
+	width: 150px;
+	text-indent: 12px;
+}
+.reviewed-division .product-information .activities-product-image {
+	width: 150px;
+	height: 150px;
+	margin: 5px 0 0 20px;
+	float: left;
+}
+.reviewed-division .product-information .activities-product-name {
+	float: left;
+	margin: 10px 0 0 10px;
+	font-size: 15px;
+	width: 75%;
+}
+.reviewed-division .product-information .activities-shopname {
+	float: left;
+	margin: 1px 0 0 10px;
+	font-size: 11px;
+	width: 75%;
+}
+.reviewed-division .product-information .activities-star-ratings {
+	float: left;
+	margin: 1px 0 0 10px;
+	width: 100px;
+	height: 15px;
+}
+.reviewed-division .product-information .activities-title-review {
+	float: left;
+	margin: 10px 0 0 10px;
+	width: 75%;
+}
+.reviewed-division .product-information .activities-product-description {
+	float: left;
+	width: 75%;
+	margin: 5px 0 0 10px;
+	text-indent: 50px;
+	text-align: justify;
+	padding: 5px;
+}
+/***********************************************************************/
+.modal-dialog .modal-content{
+	border: 2px solid #125965;
+}
+.modal-dialog .modal-content .modal-header {
+}
+.modal-dialog .modal-content .modal-header .modal-title {
+	font-size: 20px;
+}
+.modal-dialog .modal-content .modal-header .close {
+	font-size: 25px;
+}
+/**************************************************/
+.modal-dialog .modal-content .modal-body {
+	margin: 1px 0 0 0;
+	overflow: hidden;
+}
+.modal-dialog .modal-content .modal-body .first-name {
+	float: left;
+	width: 100%;
+	margin: 10px 0 10px 0;
+}
+.modal-dialog .modal-content .modal-body .last-name {
+	margin: 10px 0 0 0;
+	width: 100%;
+}
+.modal-dialog .modal-content .modal-body .update-button {
+	clear: both;
+	float: right;
+	margin: 5px 5px 0 0;
+	height: 30px;
+	width: 25%;
+	background: #125965;
+	color: #fff;
+}
+/**************************************************/
+.modal-dialog .modal-content .modal-footer {
+	margin: 1px 0 0 0;
+}

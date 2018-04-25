@@ -1,0 +1,74 @@
+* {
+	font-family: Century Gothic;
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	margin: 0;
+	padding: 0px;	
+	overflow-x: hidden;
+
+}
+.wrapper {
+	margin: 0px 0px 0px 0px;
+	overflow: hidden;
+}
+.carousel-inner {
+	height: 300px;
+}
+.wrapper-carousel {
+	height: 750px;
+}
+#logo {
+	margin: -6px 0 0 -20px;
+}
+.navbar.navbar-inverse {
+	background: blue;
+	border-color: #125965;
+	background-color: #125965;
+}
+.input-group {
+	margin: 0 0 0 0px;
+	width: 550px;
+}
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 985px) and (min-width: 851px) {
+	.wrapper {
+		width: 100%;
+	}
+	.input-group {
+		width: 400px;
+	}
+}
+@media screen and (max-width: 850px) and (min-width: 768px) {
+	.input-group {
+		width: 300px;
+	}
+}
+@media screen and (max-width: 766px) {
+	.input-group {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 285px) and (min-width: 266px) {
+	img.logo {
+		width: 150px;
+	}
+
+}
+
+@media screen and (max-width: 299px) and (min-width: 286px) {
+	img.logo {
+		width: 150px;
+	}
+	.carousel-inner > .item > img,
+		  	.carousel-inner > .item > a > img {
+		      height: 250px;
+		  	}
+		  	.carousel-inner {
+		    	height: 250px;
+		    }
+	}

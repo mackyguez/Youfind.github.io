@@ -1,0 +1,244 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	padding: 0;
+	margin: 0;	
+	width: 1349px;
+	font-family: Century Gothic;
+	position: relative;
+}
+.header-holder {
+	position: relative;
+}
+.search-success {
+	position: absolute;
+	z-index: 1;
+	top: 85px;
+	right: 215px;
+	width: 350px;
+	border-radius: 2px;
+	display: none;
+	background-color: #fff;
+}
+.search-item {
+	border-bottom: 1px solid #b3b3b3; 
+	padding: 3px 0 3px 3px;
+	cursor: pointer;
+}
+.header-top {
+	padding: 1px;
+	overflow: hidden;
+	background-color: #08282d;
+}
+.header-left {
+	overflow: hidden;
+	height: 31px;
+	width: 50%;
+	float: left;
+}
+.header-right {
+	overflow: hidden;
+	height: 31px;
+	width: 50%;
+	float: right;
+}
+.header-bottom {
+	overflow: hidden;
+	height: 70px;
+	background-color: #125965;
+	padding: 1px;
+	margin: 0 0 0 0;
+}
+.header-bottom-left {
+	width: 50%;
+	float: left;
+	height: 100%;
+}
+.header-bottom-right {
+	position: relative;
+	float: right;
+	width: 50%;
+	height: 100%;
+}
+.header-welcome {
+	color: #fff;
+	margin: 5px 0 0 70px;
+	float: left;
+	font-size: 12px;
+	cursor: default;
+}
+.header-left .header-login {
+	text-decoration: none;
+	color: #b1b1b1;
+	font-size: 12px; 
+	float: left;
+	margin: 5px 0 0 15px;
+}
+.header-left .header-create-account {
+	text-decoration: none;
+	color: #b1b1b1;
+	font-size: 12px; 
+	float: left;
+	margin: 5px 0 0 15px;
+}
+.header-left .header-sell {
+	text-decoration: none;
+	border: none;
+	background-color: inherit;
+	color: #b1b1b1;
+	font-size: 12px; 
+	float: left;
+	margin: 5px 0 0 15px;
+	outline: none;
+}
+.header-left .header-login:hover,
+.header-left .header-create-account:hover,
+.header-left .header-sell:hover {
+	color: #fff;
+}
+/**/
+.header-account-btn {
+	outline: none;
+	border: none;
+	background-color: inherit;
+	float: right;
+	color: #b1b1b1;
+	margin: 5px 70px 0 0;
+	font-size: 12px;
+}
+a.header-youwallet {
+	text-decoration: none;
+	color: #b1b1b1;
+	float: right;
+	font-size: 12px;
+	margin: 5px 15px 0 0;
+}
+a.header-wishlist {
+	text-decoration: none;
+	color: #b1b1b1;
+	float: right;
+	font-size: 12px;
+	margin: 5px 15px 0 0;
+}
+.header-account-btn:hover,
+a.header-youwallet:hover,
+a.header-wishlist:hover {
+	color: #fff;
+}
+.header-image-holder {
+	float: left;
+	margin: 10px 0 0 55px;
+	height: 42px;
+	width: 215px;
+}
+.header-image {
+	width: 100%;
+	height: 100%;
+}
+.header-search-activity-holder {
+	float: right;
+	margin: 17px 25px 0 0;
+	height: 30px;
+}
+.header-select-search {
+	border-radius: 4px;
+	height: 100%;
+	font-size: 12px;
+	display: none;
+}
+.header-search {
+	width: 350px;
+	border-radius: 4px;
+	height: 100%;
+}
+.header-shop-cart-holder {
+	float: right;
+	margin: 15px 5px 0 0;
+}
+.header-shop-cart-image-holder {
+	width: 30px;
+	height: 30px;
+}
+.header-shop-cart-image {
+	width: 100%;
+	height: 100%;
+	border-radius: 4px;
+}
+.header-shop-cart-texts-holder {
+	float: right;
+	margin: 15px 70px 0 0;
+}
+.header-shop-cart-text {
+	color: #fff;
+	font-size: 12px;
+}
+.header-cart-counter-and-total-holder {
+	position: absolute;
+	top: 33px;
+	left: 525px;
+	max-width: 138px;
+}
+.header-cart-counter {
+	margin: 0;
+	min-width: 8px;
+	max-width: 18.63px;
+	font-size: 10px;
+	color: #b1b1b1;
+	float: left;
+}
+.header-item-text {
+	margin: 0 2px 0 0;
+	float: left;
+	font-size: 10px;
+	color: #b1b1b1;
+	width: 35px;
+	border-right: 1px solid #b1b1b1;
+}
+.header-cart-total {
+	float: right;
+	font-size: 10px;
+	color: #b1b1b1;
+	margin: 0;
+	padding: 0 2px 0 2px;
+	max-width: 78.06px;
+}
+.header-my-acc-dropdown {
+	position: absolute;
+	display: none;
+	top: 34px;
+	right: 30px;
+	overflow: hidden;
+	z-index: 1;
+	background-color: #08282d;
+}
+a.header-my-prof-link {
+	color: #fff;
+	float: left;
+	width: 120px;
+	text-decoration: none;
+	padding: 7px 5px 5px 15px;
+}
+a.header-settings-link {
+	color: #fff;
+	float: left;
+	clear: both;
+	text-decoration: none;
+	width: 100%;
+	padding: 7px 5px 5px 15px;
+}
+a.header-logout-link {
+	color: #fff;
+	float: left;
+	clear: both;
+	text-decoration: none;
+	width: 100%;
+	padding: 7px 5px 5px 15px;
+}
+a.header-my-prof-link:hover,
+a.header-settings-link:hover,
+a.header-logout-link:hover {
+	background-color: #fff;
+	color: #000000;
+}

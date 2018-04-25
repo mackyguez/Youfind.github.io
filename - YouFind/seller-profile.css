@@ -1,0 +1,174 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+	font-size: 12px;
+}
+body {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+.content-wrapper{
+	height: auto;
+	overflow: hidden;
+	width: 100%;
+}
+
+.footer-wrapper {
+	background-color: #333333;
+	width: 100%;
+	height: auto;
+	margin-top: 50px;
+	overflow: hidden;
+}
+.whole-wrapper {
+	height: auto;
+}
+.header-wrapper {
+	width: 100%;
+	height: auto;
+}
+.nav-bar-wrapper{
+	float: left;
+	height: auto;
+	width: 15%;
+	margin: 20px 10px 0 70px;
+	font-size: 13px;
+}
+.right-content-wrapper{
+	float: right;
+	height: auto;
+	width: 73%;
+	margin: 20px 70px 0 10px;
+}
+
+p.user-name{
+	font-size: 20px;
+	margin: 0;
+}
+p.user-verification{
+	font-size: 13px;
+	margin: 0 0 20px 0;
+	color: green;
+}
+p.user-navigation{
+	font-size: 15px;
+	margin: 5px 0;
+	cursor: pointer;
+	color: gray;
+}
+.user-navigation:hover{
+	color: #125965;
+	font-weight: bold;
+}
+
+.dashboard-title{
+	font-size: 25px;
+	font-weight: bold;
+}
+.insight-1{
+	border: 1px solid #6e6e6e;
+	padding: 10px;
+	width: 30%;
+	margin-right: 20px;
+	float: left;
+}
+.insight-ctr{
+	font-size: 30px;
+}
+.personal-info-wrapper,
+.insight-wrapper{
+	overflow:hidden;
+	margin-bottom: 30px;
+}
+
+.personal-info{
+	width: 100%;
+	height: auto;
+	padding: 10px;
+	overflow: hidden;
+	border: 1px solid #6e6e6e;
+}
+.personal-wrapper{
+	width: 50%;
+	height: auto;
+	float: left;
+	padding: 10px;
+	overflow: hidden;
+}
+
+.account-photo{
+	width: 120px;
+	height: 120px;
+	border: 1px solid #ececec;
+	padding: 3px;
+	border-radius: 3px;
+	float: left;
+}
+
+.account-info{
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.account-name{
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0;
+}
+.account-add{
+	font-size: 15px;
+	margin: 0;
+}
+
+.edit-profile{
+	cursor: pointer;
+	margin-top: 10px;
+	color: blue;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 200px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #ececec;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+}
+
+/* The Close Button */
+.close {
+    color: #6e6e6e;
+    float: right;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.okay{
+	padding: 5px 20px;
+	border-radius: 4px;
+	border: 1px solid #6e6e6e;
+}

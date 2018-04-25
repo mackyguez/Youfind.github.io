@@ -1,0 +1,33 @@
+body{
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+}
+
+.content-wrapper{
+	background-color: #f4f4f4;
+	border: 1px solid black;
+	border-radius: 10px;
+	height: 450px;
+	width: 30%;
+	margin-top: 6%;
+}
+.content-wrapper > .title {
+	background-color: #125965;
+	padding: 8px 78px;
+	height: 70px;
+	border-radius: 5px:
+}
+.content-wrapper > .content-text{
+	margin-left: -150px;
+	margin-top: 20px;
+}
+.content-wrapper > .content-text > input[type="submit"].btn_sub:hover {
+	background-color: #0e424b;
+}
+hr {
+	width: 60%;
+	margin-left: 140px;
+	border: 1px solid #125965; 
+}

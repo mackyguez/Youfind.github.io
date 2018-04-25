@@ -1,0 +1,158 @@
+* {
+	font-family: Century Gothic;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+.footer {
+	overflow: hidden;
+	bottom: 0;
+	top:0;
+	right: 0;
+	left: 0;
+	height: 220px;
+	width: 100%;
+	background: #292929;
+}
+.all-about-wrapper,
+.user-section-wrapper,
+.find-us-wrapper,
+.stay-connected-wrapper
+{
+	float: left;
+	color: white;
+	padding: 20px 0 0 40px;
+	height: 217px;
+	font-size: 18px;
+	width: 22.5%;
+}
+/** All about **/
+.all-about-wrapper {
+	width: 32%;
+	overflow: hidden;
+}
+.all-about-text {
+	width: 25%;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+	margin: 0 0 10px 0;
+}
+.footer-all-about-logo {
+	margin: 0 0 10px 0;
+	float: left;
+	width: 170px;
+	height: 40px;
+}
+.a-a-text1,
+.a-a-text2,
+.a-a-text3 {
+	font-size: 13px;
+	margin: 0 0 0 10px;
+	color: #acadac;
+	width: 50%;
+	clear: both;
+}
+.a-a-text1:hover,
+.a-a-text2:hover,
+.a-a-text3:hover {
+	color: #fff;
+	cursor: pointer;
+}
+.a-a-inner,
+.u-s-inner,
+.w-t-f-inner {
+	border-right: 2px solid #fff;
+}
+.a-a-inner,
+.u-s-inner,
+.w-t-f-inner,
+.s-c-inner {
+	height: 170px;
+}
+/** User Section **/
+.u-s-text-log,
+.u-s-text-reg,
+.u-s-text-my,
+.u-s-text-you,
+.u-s-text-shop,
+.u-s-text-wish {
+	font-size: 13px;
+	margin: 0;
+	color: #acadac;
+	cursor: pointer;
+	width: 70%;
+}
+.u-s-text-log:hover,
+.u-s-text-reg:hover,
+.u-s-text-my:hover,
+.u-s-text-you:hover,
+.u-s-text-shop:hover,
+.u-s-text-wish:hover {
+	color: #fff;
+}
+.u-s-text-log {
+	margin: 10px 0 0 0;
+}
+/** Title fontsize **/
+.where-text,
+.all-about-text,
+.user-section-text,
+.stay-connected-text {
+	margin: 0;
+	font-size: 20px;
+}
+.where-text-inner1,
+.where-text-inner2,
+.where-text-inner3,
+.where-text-inner4 {
+	margin: 0;
+	font-size: 13px;
+	color: #acadac;
+	cursor: pointer;
+	width: 75%;
+}
+.where-text-inner1:hover,
+.where-text-inner2:hover,
+.where-text-inner3:hover,
+.where-text-inner4:hover {
+	color: #fff;
+}
+.where-text-inner1 {
+	margin: 10px 0 0 0;
+}
+/** Stay Connected **/
+.phone-icon-footer-wrapper {
+	width: 25px;
+	height: 20px;
+	float: left;
+	cursor: pointer;
+	margin: 10px 0 0 0;
+}
+.phone-icon-footer {
+	width: 100%;
+	height: 100%;
+}
+.phone-text {
+	float: left;
+	font-size: 13px;
+	margin: 10px 0 0 5px;
+	cursor: pointer;
+}
+.mail-icon-footer-wrapper {
+	clear: both;
+	width: 25px;
+	height: 20px;
+	float: left;
+	cursor: pointer;
+	margin: 10px 0 0 0;
+}
+.mail-icon-footer {
+	width: 100%;
+	height: 100%;
+}
+.mail-text {
+	float: left;
+	margin: 10px 0 0 5px;
+}

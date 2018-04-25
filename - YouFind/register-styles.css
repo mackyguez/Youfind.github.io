@@ -1,0 +1,29 @@
+.create-middle-wrapper {
+	overflow: hidden;
+	padding: 20px;
+	height: 700px;
+}
+
+.input-address-wrapper {
+	float: left;
+	width: 33%;
+	margin: 20px 0 0 0;
+}
+.input-address2-wrapper {
+	float: right;
+	width: 33%;
+	margin: 20px 140px 0 0;
+}
+
+.form-control.address {
+	border: 1.5px solid #125965;
+	width: 100%;
+}
+.sign-in-wrapper {
+	margin-top: 110px;	
+	margin-left: 300px;
+	border: 1px solid red;
+}
+.checkbox-wrapper {
+	clear: both;
+}

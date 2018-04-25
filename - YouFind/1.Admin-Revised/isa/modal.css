@@ -1,0 +1,164 @@
+
+.item-progress-title{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
+.input-forms{
+    height: auto;
+    width: 100%;
+
+}
+
+.categories {
+    width: 100%;
+}
+
+select.allCategories{
+    border: 1px solid gray;
+    width: 98%;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    padding: 5px;
+}
+
+.input-type{
+    border: 1px solid gray;
+    width: 98%;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 0 8px;
+}
+
+textarea.overview{
+    border: 1px solid gray;
+    width: 98.5%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+    resize: none;
+}
+
+
+.input-num{
+    border: 1px solid gray;
+    width: 20%;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 0 8px;
+    float: left;
+}
+
+
+.input-what{
+    border: 1px solid gray;
+    width: 73%;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    padding: 0 8px;
+    float: right;
+}
+
+p.ex{
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    margin: 0 0 0 20px;
+}
+
+.add-more-item{
+    display: block;
+}
+.add-inclusion{
+    padding: 5px 10px;
+    background-color: inherit;
+    border: 1px solid #6e6e6e;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.add-inclusion:hover{
+    background-color: #ececec;
+}
+
+.spec_value{
+    border: 1px solid gray;
+    width: 66%;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    padding: 0 8px;
+    float: right;
+}
+.spec_title{
+    border: 1px solid gray;
+    width: 30%;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    padding: 0 8px;
+    float: left;
+}
+
+.space{
+    color: white;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.img-uploader{
+    border: 1px solid gray;
+    width: 30%;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    padding: 0 8px;
+    float: left;
+}
+
+.item-preview{
+    border-radius: 4px;
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+    border: 1px solid #ececec;
+    float: left;
+}
+
+.item-preview-wrapper{
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.input-upload{
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+
+.input-wrapper{
+    padding: 20px 20px;
+    height: auto;
+}
+
+.post-ad{
+    padding: 5px 50px;
+    border: 1px solid #6e6e6e;
+    background-color: #ececec;
+    border-radius: 4px;
+}
+
+.post-ad:hover{
+    background-color: #e1dfdf;
+}

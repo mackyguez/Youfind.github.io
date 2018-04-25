@@ -1,0 +1,223 @@
+.content-holder{
+	width: 100%;
+	height: auto;
+	padding: 30px 60px;
+}
+
+.directory{
+	font-size: 14px;
+}
+
+a.direct-a {
+	color: #0000cc;
+}
+
+.prod-wrapper{
+	background-color: #f0f1f4;
+	padding: 15px;
+	width: 100%;
+	margin-top: 30px;
+	height: auto;
+}
+
+.left-wrapper{
+	width: 78%;
+	height: auto;
+	float: right;
+}
+
+.top-info {
+	width: 100%;
+	border-bottom: 1px solid #797979;
+	overflow: hidden;
+}
+
+.prod-title{
+	font-size: 25px;
+	width: 88%;
+	float: left;
+}
+
+.edit-prod{
+	float: right;
+	padding: 2px 5px;
+	font-size: 12px;
+}
+
+.title-edit{
+	overflow: hidden;
+}
+
+.title-rate{
+	width: 100%;
+	height: auto;
+}
+
+.writeReview a {
+	text-decoration: none;
+	color: #0000cc;
+}
+
+.reviews{
+	width: 50%;
+	overflow: hidden;
+}
+
+.ratings{
+	width: 25%;
+	overflow: hidden;
+}
+
+.img-rate{
+	float: left;
+}
+
+.rate-counter{
+	float: right;
+}
+
+.bottom-info{
+	overflow: hidden;
+	width: 100%;
+	height: auto;
+	padding: 20px 0 20px 0;
+}
+
+.item-list{
+	float: left;
+	width: 70px;
+}
+
+.item-preview{
+	float: left;
+	width: 250px;
+	height: 250px;
+}
+
+.item-photos{
+	float: left;
+	width: 42%;
+}
+
+li.photo-list{
+	margin-bottom: 10px;
+}
+
+li .overview {
+	list-style-type: circle;
+	font-size: 30px;
+	margin-bottom: 2px;
+}
+p.overview-title {
+	font-size: 18px;
+	color: #125965;
+}
+.item-info {
+	width: 52%;
+	margin-left: 20px;
+	height: auto;
+	float: left;
+	overflow: hidden;
+	border: 1px solid red;
+}
+
+.item-overview{
+	height: 180px;
+	width: 100%;
+	padding: 10px;
+}
+
+.price-wrapper{
+	border: 1px solid red;
+	margin-top: 10px;
+}
+
+p.price {
+	font-size: 30px;
+}
+
+.prod-description{
+	border-top: 3px solid #125965;
+	height: auto;
+	overflow: hidden;
+	width: 100%;
+	margin: 20px 0;
+	background-color: #f0f1f4;
+	padding: 20px 20px;
+}
+
+p.desc-title {
+	font-size: 18px;
+	color: #125965;
+	margin-bottom: 30px;
+}
+
+p.desc-what{
+	font-weight: bold;
+	color: black;
+	font-size: 14px;
+}
+p.desc-details{
+	float: left;
+	color: black;
+	font-size: 13px;
+}
+
+.desc-div{
+	width: 95%;
+	height: auto;
+	overflow: hidden;
+	margin-bottom: 10px;
+
+}
+
+.revrate-wrapper{
+	border-top: 3px solid #125965;
+	height: auto;
+	overflow: hidden;
+	width: 100%;
+	margin: 20px 0;
+	background-color: #f0f1f4;
+	padding: 20px 20px;
+}
+
+.rate-container{
+	width: 45%;
+	height: auto;
+	overflow: hidden;
+	margin-top: 40px;
+	margin-bottom: 10px;
+	margin-left: 150px;
+	float: left;
+}
+
+.star-counter{
+	float: left;
+	width: 30%;
+}
+
+p.rate-title{
+	font-size: 16px;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+.rate-this{
+	width: 80%;
+	height: 40px;
+}
+
+.summary{
+	margin-left: 15px;
+}
+
+p.review-count{
+	float: left;
+	padding: 2px 15px 2px 15px;
+	border-right: 1px solid black;
+}
+
+p.rate-count{
+	float: left;
+	padding: 2px 15px 2px 15px;
+}

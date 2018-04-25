@@ -1,0 +1,292 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+	font-size: 12px;
+}
+body {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	width: 1349px;
+}
+.whole-wrapper {
+	height: auto;
+}
+.middle-wrapper {
+	padding: 2px 2px 50px 2px;
+	overflow: hidden;
+}
+.register-text {
+	margin: 0 0 1px 0;
+	padding: 40px 0 0 50px;
+	color: #125965;
+}
+.register-input-left {
+	float: left;
+	width: 100%;
+	padding: 0px 70px 20px 70px;
+}
+/** Error Message**/
+.error-message {
+	float: right;
+	width: 80%;
+	text-align: center;
+	margin: 15px 0 0 0;
+	color: red;
+}
+#error_message2, #error_message1 {
+	font-size: 15px;
+}
+/** first-name Styles **/
+.first-name-holder-inner {
+	overflow: hidden;
+	margin: 50px 0 0 0;
+}
+.first-name-text-holder {
+	font-size: 15px;
+	float: left;
+	width: 20%;
+	height: 34px;
+	line-height: 34px;
+}
+.first-name-input-holder {
+	float: left;
+	width: 80%;
+	height: 34px;
+}
+.form-control.first-name {
+	width: 100%;
+	height: 100%;
+}
+/** Last Name Styles **/
+.last-name-holder-inner {
+	overflow: hidden;
+	margin: 10px 0 0 0;
+}
+.last-name-text-holder {
+	font-size: 15px;
+	float: left;
+	width: 20%;
+	height: 34px;
+	line-height: 34px;
+}
+.last-name-input-holder {
+	float: left;
+	width: 80%;
+	height: 34px;
+}
+.form-control.last-name {
+	width: 100%;
+	height: 100%;
+}
+/** Email Styles **/
+.email-holder-inner {
+	overflow: hidden;
+	margin: 10px 0 0 0;
+}
+.email-text-holder {
+	font-size: 15px;
+	float: left;
+	
+	width: 20%;
+	height: 34px;
+	line-height: 34px;
+}
+.email-input-holder {
+	float: left;
+	width: 80%;
+	height: 34px;
+}
+.form-control.email {
+	width: 100%;
+	height: 100%;
+}
+/** Password **/
+.password-holder-inner {
+	overflow: hidden;
+	margin: 10px 0 0 0;
+}
+.password-text-holder {
+	font-size: 15px;
+	float: left;
+	width: 20%;
+	height: 34px;
+	line-height: 34px;
+}
+.password-input-holder {
+	float: left;
+	width: 80%;
+	height: 34px;
+}
+.form-control.password {
+	width: 100%;
+	height: 100%;
+}
+/** Re-password **/
+.re-password-holder-inner {
+	overflow: hidden;
+	margin: 10px 0 0 0;
+}
+.re-password-text-holder {
+	font-size: 15px;
+	float: left;
+	width: 20%;
+	height: 34px;
+	line-height: 34px;
+}
+.re-password-input-holder {
+	float: left;
+	width: 80%;
+	height: 34px;
+}
+.form-control.re-password {
+	width: 100%;
+	height: 100%;
+}
+/** Address **/
+.address-holder-inner {
+	margin: 10px 0 0 0;
+	overflow: hidden;
+}
+.address-text-holder-left {
+	float: left;
+	width: 20%;
+	font-size: 15px;
+	margin: 25px 0 0 0;
+}
+.add-top-input-holder-right {
+	overflow: hidden;
+	float: right;
+	width: 80%;
+}
+.add-street {
+	float: left;
+	width: 49%;
+}
+.add-brgy {
+	float: right;
+	width: 49%;
+}
+.add-bottom-input-holder-right {
+	overflow: hidden;
+	float: right;
+	width: 80%;
+	margin: 10px 0 0 0;
+}
+.add-city {
+	float: left;
+	width: 49%;
+}
+.add-province {
+	float: right;
+	width: 49%;
+}
+/** Mobile **/
+.mobile-holder-inner {
+	overflow: hidden;
+	margin: 10px 0 0 0;
+}
+.mobile-text-holder {
+	font-size: 15px;
+	float: left;
+	
+	width: 20%;
+	height: 34px;
+	line-height: 34px;
+}
+.mobile-input-holder {
+	float: left;
+	width: 80%;
+	height: 34px;
+}
+.form-control.mobile {
+	width: 100%;
+	height: 100%;
+}
+/** **/
+.birthday-holder-inner {
+	overflow: hidden;
+	margin: 10px 0 0 0;
+}
+.birthday-text-holder {
+	font-size: 15px;
+	float: left;
+	width: 20%;
+	height: 34px;
+	line-height: 34px;
+}
+.birthday-input-holder {
+	float: left;
+	width: 80%;
+	height: 34px;
+}
+.form-control.birthday {
+	width: 100%;
+	height: 100%;
+}
+/** Submit button **/
+.register-submit-wrapper {
+	margin: 10px auto 0 auto;
+	width: 80%;
+	text-align: center;
+	color: #fff;
+	font-size: 15px;
+	float: right;
+}
+.register-button {
+	width: 50%;
+	border: none;
+	padding: 2px;
+	background: #125965;
+	border-radius: 4px;
+}
+/** Border for every input **/
+.footer-wrapper {
+	margin: 1px 0 0 0;
+}
+
+.progress-wrapper {
+	overflow: hidden;
+	float: right;
+	width: 73%;
+	margin: 0 70px 0 0;
+	padding: 1px 1px 1px 25px;
+	box-shadow: 0px 4px 5px 0px #125965;
+	border-radius: 4px;
+	height: 41px;
+}
+.personal-title {
+	float: left;
+	font-size: 14px;
+	margin: 0;
+	height: 37px;
+	line-height: 31.7px;
+}
+.follows1 {
+	float: left;
+	font-size: 20px;
+	margin: 0 5px 0 5px;
+	height: 100%;
+	line-height: 33px;
+}
+.account-title {
+	float: left;
+	font-size: 14px;
+	margin: 0;
+	height: 37px;
+	line-height: 31.7px;
+}
+.follows2 {
+	float: left;
+	font-size: 25px;
+	margin: 0 5px 0 5px;
+	height: 100%;
+}
+.review-title {
+	float: left;
+	font-size: 14px;
+	margin: 0;
+	height: 37px;
+	line-height: 31.7px;
+}

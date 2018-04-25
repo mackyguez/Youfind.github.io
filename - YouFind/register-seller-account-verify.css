@@ -1,0 +1,308 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+	font-size: 12px;
+}
+body {
+	margin: 0;
+	padding: 0;
+	width: 1348px;
+}
+.whole-wrapper {
+	height: auto;
+	width: auto;
+	padding: 1px;
+	
+}
+.middle-wrapper {
+	padding: 2px 25px 50px 25px;
+	overflow: hidden;
+	
+}
+.register-text {
+	margin: 0 0 1px 0;
+	padding: 40px 0 0 50px;
+	color: #125965;
+	
+}
+.register-inputs-wrapper {
+	float: left;
+	padding: 1px 1px 30px 0;
+	width: 48.9%;
+	background: #cbcdcb;
+	border-radius: 15px;
+	margin: 20px 0 0 0;
+	height: auto;
+}
+.upload-id-cert-wrapper {
+	margin: 10px 0 0 50px;
+	font-size: 20px;
+	width: 550px;
+	
+}
+.upload-id-warning {
+	margin: 1px 0 0 80px;
+	color: red;
+	width: 520px;
+	
+}
+.selection-right {
+	overflow: hidden;
+	margin: 20px 0 0 20px;
+	width: 450px;
+	padding: 1px;
+	height: auto;
+	
+}
+.front-text {
+	float: left;
+	font-size: 20px;
+	width: 48.9%;
+	text-align: center;
+	
+}
+.upload-front-id {
+	float: right;
+	width: 48.9%;
+	height: 30px;
+	font-size: 15px;
+	line-height: 27px;
+	
+}
+/** BACK **/
+.back-text {
+	float: left;
+	font-size: 20px;
+	width: 48.9%;
+	margin: 1px 0 0 0;
+	text-align: center;
+	
+}
+#upload_back_id {
+	float: right;
+	width: 48.9%;
+	height: 30px;
+	font-size: 15px;
+	line-height: 27px;
+	margin: 1px 0 0 0;
+	
+}
+.id-type-text {
+	margin: 1px 0 0 0;
+	float: left;
+	width: 48.9%;
+	font-size: 20px;
+	height: 36px;
+	text-align: center;
+	
+}
+.select-id-type {
+	float: right;
+	margin: 1px 0 0 0;
+	width: 48.9%;
+}
+.select-form {
+	border: 2px solid #125965;
+	
+}
+.id-number-text {
+	clear: both;
+	float: left;
+	margin: 1px 0 10px 0;
+	width: 48.9%;
+	font-size: 20px;
+	text-align: center;
+	height: 34px;
+	
+}
+.id-number {
+	float: right;
+	border: 2px solid #125965;
+	width: 48.9%;
+	margin: 1px 0 10px 0;
+	
+}
+.button-back-wrapper {
+	clear: both;
+	margin: 1px 0 0 0;
+	text-align: center;
+	color: #fff;
+	
+}
+.button-back {
+	border: none;
+	width: 150px;
+	background-color: #125965;
+	border-radius: 3px;
+	
+}
+/*************************/
+.bank-account-right {
+	float: right;
+	width: 48.9%;
+	padding: 1px 1px 30px 1px;
+	background: #cbcdcb;
+	margin: 20px 0 0 0;
+	border-radius: 15px;
+	
+}
+.bank-acc-wrapper {
+	margin: 10px 0 0 50px;
+	font-size: 20px;
+	width: 550px;
+	
+}
+.bank-acc-warning {
+	margin: 1px 0 0 80px;
+	color: red;
+	width: 520px;
+	
+}
+.bank-inner-wrapper {
+	overflow: hidden;
+	margin: 20px 0 0 50px;
+	width: 550px;
+	height: auto;
+	padding: 1px;
+	
+}
+.account-name-text {
+	clear: both;
+	float: left;
+	margin: 1px 0 5px 0;
+	width: 48.9%;
+	font-size: 20px;
+	text-align: center;
+	height: 34px;
+	
+}
+.account-name-text .account-name {
+	float: right;
+	width: 48.9%;
+	margin: 1px 0 5px 0;
+	
+
+}
+.account-number-text {
+	clear: both;
+	float: left;
+	margin: 1px 0 5px 0;
+	width: 48.9%;
+	font-size: 20px;
+	text-align: center;
+	height: 34px;
+	
+}
+.account-number {
+	float: right;
+	border: 2px solid #125965;
+	width: 48.9%;
+	margin: 1px 0 5px 0;
+	
+}
+.expi-date-text {
+	clear: both;
+	float: left;
+	margin: 1px 0 25px 0;
+	width: 48.9%;
+	font-size: 20px;
+	text-align: center;
+	height: 34px;
+	
+}
+.expi-month {
+	float: left;
+	border: 2px solid #125965;
+	width: 132px;
+	margin: 1px 0 25px 10px;
+	
+}
+.expi-year {
+	float: right;
+	border: 2px solid #125965;
+	width: 132px;
+	margin: 1px 0 25px 0;
+	
+}
+
+
+
+
+
+/***************/
+.button-next-wrapper {
+	clear: both;
+	margin: 1px 0 0 0;
+	text-align: center;
+	color: #fff;
+	
+}
+.button-next {
+	border: none;
+	width: 150px;
+	background-color: #125965;
+	border-radius: 3px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+.footer-wrapper {
+	margin: 1px 0 0 0;
+	
+}
+
+.progress-wrapper {
+	overflow: hidden;
+	float: right;
+	width: 73%;
+	margin: 0 70px 10px 0;
+	padding: 1px 1px 1px 25px;
+	box-shadow: 0px 4px 5px 0px #125965;
+	border-radius: 4px;
+	height: 41px;
+	
+}
+.personal-title {
+	float: left;
+	font-size: 14px;
+	margin: 0;
+	height: 37px;
+	line-height: 31.7px;
+}
+.follows1 {
+	float: left;
+	font-size: 20px;
+	margin: 0 5px 0 5px;
+	height: 100%;
+	line-height: 33px;
+}
+.account-title {
+	float: left;
+	font-size: 14px;
+	margin: 0;
+	height: 37px;
+	line-height: 31.7px;
+}
+.follows2 {
+	float: left;
+	font-size: 25px;
+	margin: 0 5px 0 5px;
+	height: 100%;
+}
+.review-title {
+	float: left;
+	font-size: 14px;
+	margin: 0;
+	height: 37px;
+	line-height: 31.7px;
+}
+

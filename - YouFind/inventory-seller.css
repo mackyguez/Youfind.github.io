@@ -1,0 +1,108 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+	font-size: 12px;
+}
+body {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+.content-wrapper{
+	height: auto;
+	overflow: hidden;
+	width: 100%;
+}
+
+.footer-wrapper {
+	background-color: #333333;
+	width: 100%;
+	height: auto;
+	margin-top: 50px;
+	overflow: hidden;
+}
+.whole-wrapper {
+	height: auto;
+}
+.header-wrapper {
+	width: 100%;
+	height: auto;
+}
+.nav-bar-wrapper{
+	float: left;
+	height: auto;
+	width: 15%;
+	margin: 20px 10px 0 70px;
+	font-size: 13px;
+}
+.right-content-wrapper{
+	float: right;
+	height: auto;
+	width: 73%;
+	margin: 20px 70px 0 10px;
+}
+
+p.user-name{
+	font-size: 20px;
+	margin: 0;
+}
+p.user-verification{
+	font-size: 13px;
+	margin: 0 0 20px 0;
+	color: green;
+}
+p.user-navigation{
+	font-size: 15px;
+	margin: 5px 0;
+	cursor: pointer;
+	color: gray;
+}
+.user-navigation:hover{
+	color: #125965;
+	font-weight: bold;
+}
+
+.dashboard-title{
+	font-size: 25px;
+	font-weight: bold;
+}
+.search-wrapper {
+	float: right;
+	padding: 1px;
+	margin: 10px 0 0 0;	
+}
+.search-wrapper .pick-search {
+	height: 24px;
+	margin: 0;
+	font-size: 15px;
+}
+.searchbar {
+	margin: 0;
+	height: 24px;
+	width: 200px;
+	font-size: 15px;
+}
+
+.post-item-btn{
+	float: left;
+	padding: 2px 20px;
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+.table-wrapper{
+	margin-top: 30px;
+}
+
+td {
+	font-size: 15px;
+	padding: 5px;
+	border: 1px solid #6e6e6e;
+}
+th {
+	border: 1px solid #6e6e6e;
+	padding: 5px;
+	font-size: 15px;
+	background-color: #ebf0cc;
+}

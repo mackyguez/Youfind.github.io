@@ -1,0 +1,279 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	padding: 0;
+	margin: 0;
+	width: 1349px;
+	overflow-x: hidden;
+}
+.whole-wrapper {
+	width: 100%;
+}
+.header-holder {
+}
+p.about-text {
+	margin: 0;
+	color: #125965;
+	font-size: 15px;
+	text-indent: 15px;
+}
+.content-holder {
+	padding: 1px;
+	margin: 1px 0 0 0;
+	overflow: hidden;
+}
+.content-left {
+	float: left;
+	width: 450px;
+	padding: 1px;
+	margin: 40px 0 0 50px;
+}
+.left-upper {
+	padding: 1px;
+	overflow: hidden;
+	height: auto;
+	border: 1px solid #125965;
+	border-top: 2px solid #125965;
+	border-radius: 4px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.left-upper div.user-pic-holder-left {
+	float: left;
+	width: 30%;
+	padding: 1px;
+	height: 104px;
+}
+.left-upper div.user-pic-holder-left div.user-pic { 
+	border-radius: 50%; 
+	height: 100px; 
+	width: 100px;
+	margin: 0 auto;
+}
+.left-upper div.user-pic-holder-left div.user-pic .user-pic-image {	
+	border-radius: 50%; width: 100%; height: 100%;
+}
+.left-upper div.user-details-holder-right {
+	float: right;
+	width: 69%;
+	height: 104px;
+	padding: 10px 1px 1px 20px;
+}
+.left-upper div.user-details-holder-right .user-name {
+	margin: 0 0 0 0;
+	font-size: 16px;
+}
+.left-upper div.user-details-holder-right .user-address {
+	margin: 1px 0 1px 0;
+	float: left;
+	font-size: 14px;
+}
+.left-upper div.user-details-holder-right .edit-profile-button {
+	float: right;
+	margin: -20px 10px 0 0;
+}
+.left-upper div.user-details-holder-right .ratings-text {
+	clear: both;
+	font-size: 14px;
+	margin: 0;
+}
+.left-upper div.user-details-holder-right .star-ratings-image {
+	width: 100px;
+	height: 15px;
+	margin: 0;
+}
+/**************************************************************/
+p.insight-text {
+	margin: 10px 0 0 0;
+	font-size: 15px;
+	color: #125965;
+	text-indent: 15px;
+}
+.insights-holder {
+	border: 1px solid #125965;
+	border-top: 2px solid #125965;
+	border-radius: 4px;
+	margin: 1px 0 0 0;
+	padding: 8px;
+	overflow: hidden;
+}
+.insights-holder div.reviews-wrapper {
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+.insights-holder div.items-ordered-wrapper {
+	width: 33%;
+	float: left;
+	text-align: center;
+	margin: 0 0 0 2px;
+}
+.insights-holder div.service-hired-wrapper {
+	width: 33%;
+	float: right;
+	text-align: center;
+}
+.insights-holder div.reviews-wrapper .counting-numbers,
+.insights-holder div.items-ordered-wrapper .counting-numbers, 
+.insights-holder div.service-hired-wrapper .counting-numbers {
+	margin: 0;
+	font-size: 20px;
+	font-weight: bold;
+}
+.insights-holder div.reviews-wrapper .text-bottom,
+.insights-holder div.items-ordered-wrapper .text-bottom, 
+.insights-holder div.service-hired-wrapper .text-bottom {
+	margin: 0;
+}
+
+
+/**************************************************************/
+p.task-text {
+	margin: 10px 0 0 0;
+	font-size: 15px;
+	color: #125965;
+	text-indent: 15px;
+}
+
+.task-holder {
+	border: 1px solid #125965;
+	border-radius: 4px;
+	margin: 1px 0 0 0;
+	padding: 1px;
+	overflow: hidden;
+	border-top: 2px solid #125965;
+}
+
+.table-holder{
+	width: 101%;
+	margin: -1px;
+	padding: 0;
+}
+
+table.task {
+	width: 100%;
+}
+tr.header-style{
+	background-color: #125965;
+	color: white;
+}
+
+tr.details-style{
+	border-bottom: 1px solid gray;
+}
+td {
+	padding: 5px 5px 5px 2px;
+	width: 100px;
+}
+
+button.view-more{
+	background-color: white;
+	border: none;
+	padding: 1px;
+	float: right;
+}
+
+img.view-img {
+	width: 13px;
+	height: 13px;
+}
+
+td p.pending {
+	color: green;
+	font-weight: bold;
+}
+
+td p.done {
+	color: blue;
+	font-weight: bold;
+}
+
+td p.overdue {
+	color: red;
+	font-weight: bold;
+}
+
+p.pending, p.done, p.overdue {
+	padding-top: 10px;
+}
+
+
+/*********************************/
+
+.content-right {
+	float: right;
+	width: 780px;
+	padding: 1px;
+	margin: 30px 50px 0 0;
+}
+
+p.sales-text{
+	margin: 10px 0 0 0;
+	font-size: 15px;
+	color: #125965;
+	text-indent: 15px;
+}
+
+.graph-holder {
+	border: 1px solid #125965;
+	border-radius: 4px;
+	margin: 1px 0 0 0;
+	padding: 1px;
+	overflow: hidden;
+	border-top: 2px solid #125965;
+	height: 260px;
+	width: 600px;
+}
+
+/**************************/
+
+.inventory-holder{
+	border: 1px solid #125965;
+	border-radius: 4px;
+	margin: 1px 0 0 0;
+	padding: 1px;
+	overflow: hidden;
+	height: auto;
+}
+
+table.inventory {
+	width: 101%;
+	margin-left: -.5%;
+}
+tr.inventory-header{
+	background-color: #125965;
+	color: white;
+}
+
+tr.details-style{
+	border-bottom: 1px solid gray;
+}
+td {
+	padding: 5px 5px 5px 2px;
+	width: 100px;
+}
+
+li.action{
+	float: left;
+	list-style-type: none;
+	margin-right: 10px;
+}
+
+button.myBtnClass{
+	background-color: inherit;
+	border: none;
+}
+.left-upper .user-pic-holder-left input.upload-profile-picture {
+	margin: 10px 0 0 0; 
+	text-indent: 25px; 
+	width: 100%; 
+	color: transparent;
+}
+.left-upper div.user-pic-holder-left {
+	float: left;
+	width: 30%;
+	padding: 1px;
+	height: auto;
+}

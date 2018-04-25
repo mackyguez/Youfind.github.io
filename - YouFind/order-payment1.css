@@ -1,0 +1,278 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+	font-size: 12px;
+}
+body {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+.content-wrapper{
+	height: auto;
+	overflow: hidden;
+	width: 100%;
+}
+
+.footer-wrapper {
+	background-color: #333333;
+	width: 100%;
+	height: auto;
+	margin-top: 50px;
+	overflow: hidden;
+}
+.whole-wrapper {
+	height: auto;
+}
+.header-wrapper {
+	width: 100%;
+	height: auto;
+}
+.whole-payment-wrapper{
+	width: 75%;
+	float: right;
+	margin: 20px 70px 0 0;
+}
+.payment-holder{
+	width: 62%;
+	float: left;
+	height: auto;
+}
+p.choose-payment{
+	font-size: 15px;
+	font-weight: bold;
+	padding: 10px;
+	border: 1px solid #b3b3b3;
+	margin: 0;
+}
+p.apply-voucher{
+	font-size: 15px;
+	font-weight: bold;
+	padding: 10px;
+	border: 1px solid #b3b3b3;
+	margin: 40px 0 0 0;
+}
+
+
+.order-summary-wrapper{
+	float: left;
+	border: 1px solid #b3b3b3;
+	width: 36%;
+	margin-left: 20px;
+	height: auto;
+	overflow: hidden;
+}
+.order-summary{
+	font-size: 15px;
+	font-weight: bold;
+	float: left;
+	margin: 10px 0 0 10px;
+}
+.total-num-items{
+	float: left;
+	font-size: 13px;
+	margin: 10px 0 0 20px;
+}
+.product-header{
+	background-color: #ececec;
+	color: #8c8c8c;
+	padding: 5px 10px 5px 10px;
+	font-size: 13px;
+}
+table{
+	font-size: 13px;
+}
+.product-data{
+	border-bottom: 1px solid #ececec; 
+	padding: 5px 10px 5px 10px;
+}
+.sub-total-wrapper{
+	width: 100%;
+	padding: 5px 10px 0 10px;
+	overflow: hidden;
+}
+.sub-total{
+	font-size: 13px;
+	float: left;
+}
+.sub-amount{
+	float: left;
+	margin-left: 210px;
+	font-size: 13px;
+}
+
+.shipping-fee-wrapper{
+	width: 100%;
+	padding: 0 10px 0 10px;
+	overflow: hidden;
+}
+.shipping-fee{
+	font-size: 13px;
+	float: left;
+}
+.shipping-amount{
+	float: left;
+	margin-left: 180px;
+	font-size: 13px;
+}
+
+.total-fee-wrapper{
+	width: 100%;
+	padding: 10px 10px 0 10px;
+	border-top: 1px solid #b3b3b3;
+	overflow: hidden;
+}
+.total-fee{
+	font-size: 17px;
+	float: left;
+	font-weight: bold;
+}
+.total-amount{
+	float: left;
+	margin-left: 150px;
+	font-size: 17px;
+	font-weight: bold;
+}
+p.edit-cart{
+	float: right;
+	color: blue;
+	font-size: 13px;
+	padding: 10px;
+	cursor: pointer;
+}
+.ship-address-wrapper{
+	float: right;
+	border: 1px solid #b3b3b3;
+	width: 36%;
+	margin: 20px 0 0 20px;
+	height: auto;
+	overflow: hidden;
+}
+.address-holder{
+	border-top: 1px solid #b3b3b3;
+	width: 100%;
+	height: auto;
+	padding: 10px;
+}
+.shipping-title{
+	overflow: hidden;
+}
+.shipping-info{
+	font-size: 15px;
+	font-weight: bold;
+	float: left;
+	margin: 10px 0 0 10px;
+}
+p.owner-name{
+	font-size: 13px;
+}
+p.shipping-address{
+	margin-bottom: -15px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.payment-wrapper{
+	margin: 0;
+	width: 100%;
+	padding: 15px;
+}
+.payment-btn{
+	border: 1px solid #b3b3b3;
+	float: left;
+	width: 31.5%;
+	height: auto;
+	padding: 10px;
+	background-color: inherit;
+	margin-right: 10px;
+	outline-color: #125965;
+}
+#youmoney, #installment,
+#cash_on_delivery{
+	margin: 50px 0 0 15px;
+	height: auto;
+	overflow: hidden;
+}
+
+.place-order-wrapper2{
+	margin: 20px 0 0 0;
+	width: 55%;
+	height: auto;
+}
+.place-order-wrapper{
+	margin: 20px 0 0 0;
+	width: 100%;
+	height: auto;
+}
+.place-order{
+	width: 100%;
+	height: 100%;
+	border: none;
+	background-color: #125965;
+	color: white;
+	font-size: 14px;
+	padding: 5px 0px;
+}
+.total-wrapper,
+.new-balance-wrapper,
+.balance-wrapper{
+	overflow: hidden;
+}
+.new-balance-wrapper{
+	border-top: 1px solid #b3b3b3;
+	padding-top: 10px;
+}
+.total-title,
+.balance-title{
+	float: left;
+	font-size: 15px;
+	font-weight: bold;
+}
+.balance-amount{
+	float: left;
+	font-size: 15px;
+	margin-left: 85px;
+}
+.total-fee-amount{
+	float: left;
+	font-size: 15px;
+	margin-left: 50px;
+}
+.new-balance-title{
+	float: left;
+	font-size: 18px;
+	font-weight: bold;
+}
+.new-balance-amount{
+	float: left;
+	font-size: 18px;
+	margin-left: 30px;
+}
+
+.youmoney-wrapper{
+	float: right;
+	width: 60%;
+	height: auto;
+	overflow: hidden;
+	margin-top: 10px;
+}
+.youmoney-action-wrapper{
+	float: left;
+	width: 37%;
+	height: auto;
+	overflow: hidden;
+}
+.view-my-wallet,
+.cash-in{
+	font-size: 13px;
+	border: 1px solid #b3b3b3;
+	margin-top: 10px;
+	padding: 5px;
+}
+.view-my-wallet:hover,
+.cash-in:hover{
+	background-color: #125965;
+	color: white;
+	border: none;
+	cursor: pointer;
+}

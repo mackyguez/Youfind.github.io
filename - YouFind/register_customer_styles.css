@@ -1,0 +1,219 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: Century Gothic;
+}
+body {
+	margin: 0;
+	padding: 0; 
+}
+.whole-wrapper {
+	height: auto;
+	padding: 0 0 5px 0;
+}
+.top-nav {
+	background-color: #125965;
+	height: auto;
+	overflow: hidden;
+	padding: 0 0 10px 0;
+}
+.nav-left {
+	overflow: hidden;
+	float: left;
+	height: 100%;
+	width: 45%;
+}
+/**************************/
+.mobile-icon-wrapper {
+	height: 20px;
+	width: 17px;
+	float: left;
+	margin: 0 0 0 52px;
+}
+.mobile-icon-text-wrapper {
+	float: left;
+	width: 100px;
+	margin-left: 5px;
+	color: #fff;
+	font-size: 12px;
+}
+.text {
+	padding: 0;
+	margin: 0;
+}
+.icon {
+	width: 100%;
+	height: 100%;
+}
+/**************************/
+.mail-icon-wrapper {
+	float: left;
+	width: 20px;
+	height: 15px;
+}
+.mail-icon-text-wrapper {
+	float: left;
+	width: 150px;
+	margin-left: 5px;
+	color: #fff;
+	font-size: 12px;
+}
+/**************************/
+.nav-right {
+	overflow: hidden;
+	float: right;
+	width: 40%;
+	height: 100%;
+}
+.youfindseller-text-wrapper {
+	float: left;
+	color: #fff;
+	font-size: 12px;
+	padding-top: 3px;
+	margin-left: 100px;
+}
+.user-icon-wrapper {
+	float: left;
+	width: 20px;
+	height: 15px;
+	margin-left: 30px;
+}
+.user-icon {
+	width: 100%;
+	height: 100%;
+}
+.login-text-wrapper {
+	float: left;
+	color: #fff;
+	margin-left: 10px;
+	font-size: 12px;
+}
+.lock-icon-wrapper {
+	float: left;
+	width: 20px;
+	height: 15px;
+	margin: 0 0 0 30px;
+}
+.lock-icon {
+	width: 100%;
+	height: 100%;
+}
+.create-account-text-wrapper {
+	float: left;
+	color: #fff;
+	margin-left: 10px;
+	font-size: 12px;
+}
+/**************************/
+.nav-bottom-left {
+	clear: both;
+	background-color: #125965;
+	float: left;
+	margin: 0 0 0 4%;
+}
+/**************************/
+.selection-search-wrapper {
+	width: 7%;
+	float: left;
+	margin: 0 0 0 20%;
+}
+.search-bar-wrapper {
+	width: 30%;
+	float: left;
+	margin: 0 20px 0 0;
+}
+/**************************/
+.wishlist-wrapper {
+	float: left;
+	height: 25px;
+	width: 25px;
+	margin: 0 15px 0 0;
+}
+.cart-wrapper {
+	float: left;
+	height: 25px;
+	width: 30px;
+}
+.cart-text-wrapper {
+	float: left;
+	color: #fff;
+	font-size: 20px;
+	line-height: 30px;
+	height: 34px;
+	margin: 0 100px 0 10px;
+}
+.cart-counter {
+	float: left;
+	color: #fff;
+	margin: 0 20px 0 5px;
+}
+.youwallet-text-wrapper {
+	float: left;
+	color: #fff;
+	margin: 0 0 0 40px;
+}
+.middle-wrapper {
+	height: auto;
+	overflow: hidden;
+	padding: 40px 50px 50px 50px;
+}
+/****************************/
+.login-text-title-wrapper {
+	float: left;
+	font-size: 25px;
+	color: #125965;
+}
+.login-content-left {
+	clear: both;
+	float: left;
+	width: 60%;
+	padding: 0 50px 0 50px;
+	border-right: 2px solid #125965;
+}
+.content-page-right {
+	float :right;
+	width: 40%;
+	height: auto;
+	padding: 20px;
+}
+/****************************/
+.email-text-wrapper {
+	width: 20%;
+	float: left;
+	margin: 20px 0 0 0;
+	height: 32px;
+	line-height: 30px;
+}
+.email-input-wrapper {
+	width: 80%;
+	float: left;
+	margin: 20px 0 0 0;
+	height: 32px;
+}
+.form-control.email,.form-control.password {
+	border: 2px solid #125965;
+}
+.password-text-wrapper {
+	width: 20%;
+	float: left;
+	margin: 20px 0 0 0;
+	height: 32px;
+	line-height: 30px;
+}
+.password-input-wrapper {
+	width: 80%;
+	float: left;
+	margin: 20px 0 0 0;
+}
+
+@import url('login_styles_extension.css');
+.whyyoufind-wrapper {
+	float: right;
+	font-size: 25px;
+	color: #125965;
+	margin: -41px 0 0 0;
+}
+textarea.form-control.comment {
+	height: 200px;
+	border: 2px solid #125965;
+}

@@ -1,0 +1,236 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+	font-size: 12px;
+}
+body {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+.whole-wrapper {
+	height: auto;
+	overflow: hidden;
+}
+.header-wrapper {
+	width: 100%;
+	height: auto;
+}
+.content-holder{
+	width: 100%;
+	height: auto;
+	padding: 30px 60px;
+}
+.footer-wrapper {
+	background-color: #333333;
+	width: 100%;
+	height: auto;
+	margin-top: 50px;
+	overflow: hidden;
+}
+.directory{
+	font-size: 14px;
+}
+a.direct-a {
+	color: #0000cc;
+}
+.category-wrapper {
+	width: 20%;
+	margin: 20px 0 0 70px;
+	height: auto;
+	float: left;
+}
+.product-wrapper{
+	background-color: #08282d;
+	padding: 10px 10px;
+	font-size: 15px;
+	color: white;
+}
+.category-container{
+	padding: 10px 10px;
+	font-size: 13px;
+	border-bottom: 1px solid #a3a3a3;
+	cursor: pointer;
+}
+.category-container:hover{
+	font-weight: bold;
+}
+.service-photo-wrapper{
+	width: 100%;
+	overflow: hidden;
+	margin-top: 3px;
+	background-image: url('images/iphone-service.jpg');
+	background-size: 100%;
+	height: 300px;
+}
+.service-title{
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0;
+}
+.service-provider{
+	font-size: 13px;
+}
+.left-wrapper{
+	width: 75%;
+	height: auto;
+	float: right;
+	margin: 28px 20px 0 0;
+}
+.customer-action{
+	width: 35%;
+	height: 210px;
+	margin: 40px;
+	float: left;
+	background-color: rgba(255,255,255,0.7);
+	border: 2px solid #b3b3b3;
+    box-shadow: 2px 2px 5px #b3b3b3;
+    border-radius: 5px;
+    padding: 13px;
+}
+.book-btn-wrapper{
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+}
+.book-btn:hover{
+	background-color: #08282d;
+}
+.book-btn{
+	font-size: 14px;
+	color: white;
+	background-color: #125965;
+	border: none;
+	padding: 3px 110px;
+}
+.frequently-asked-wrapper{
+	margin-top: 50px;
+}
+.frequently-asked-questions,
+.rate-and-reviews{
+	font-size: 17px;
+	margin-bottom: 20px;
+	color: #125965;
+}
+.faq-title{
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+.faq-texts{
+	font-size: 14px;
+	text-indent: 40px;
+	text-align: justify;
+}
+ul{
+	margin-left: 30px;
+}
+li{
+	font-size: 14px;
+}
+.rate-wrapper{
+	margin-top: 50px; 
+	border-top: 2px solid #125965;
+	padding-top: 20px;
+}
+
+
+.rate-container{
+	width: 45%;
+	height: auto;
+	overflow: hidden;
+	margin-top: 40px;
+	margin-bottom: 100px;
+	margin-left: 150px;
+	float: left;
+}
+
+.star-counter{
+	float: left;
+	width: 30%;
+}
+
+p.rate-title{
+	font-size: 16px;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+.rate-this{
+	width: 80%;
+	height: 40px;
+	margin-top: 10px;
+}
+
+.summary{
+	margin-left: 15px;
+}
+
+p.review-count{
+	float: left;
+	padding: 2px 15px 2px 15px;
+	border-right: 1px solid black;
+}
+
+p.rate-count{
+	float: left;
+	padding: 2px 15px 2px 15px;
+}
+
+/****************************/
+
+.review-1{
+	border-bottom: 1px solid #ececec;
+	overflow: hidden;
+	height: auto;
+	width: 100%;
+	padding: 10px;
+}
+.dp-wrapper{
+	width: 60px;
+	height: 60px;
+	float: left;
+}
+.review-wrapper{
+	height: auto;
+	overflow: hidden;
+	width: 100%;
+	margin: 50px 0;
+	padding: 20px 20px;
+}
+.review-holder{
+	float: left;
+	padding: 5px 10px;
+	width: 90%;
+}
+p.acc-name{
+	font-size: 15px;
+	color: #125965;
+}
+p.his-review{
+	font-size: 13px;
+	color: black;
+	padding: 10px 0;
+}
+
+.write-here{
+	margin-bottom: 50px;
+}
+textarea.write-your-review{
+	width: 90%;
+	margin-left: 20px;
+	height: 100px;
+	resize: none;
+}
+
+.post-btn{
+	float: right;
+	background-color: #ececec;
+	border: 1px solid gray;
+	color: #3f3e3e;
+	width: 100px;
+	height: 30px;
+	font-size: 13px;
+	margin-right: 12px;
+}

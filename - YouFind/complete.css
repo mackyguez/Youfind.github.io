@@ -1,0 +1,243 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+	font-size: 12px;
+}
+body {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+.content-wrapper{
+	height: auto;
+	overflow: hidden;
+	width: 100%;
+}
+
+.footer-wrapper {
+	background-color: #333333;
+	width: 100%;
+	height: auto;
+	margin-top: 50px;
+	overflow: hidden;
+}
+.whole-wrapper {
+	height: auto;
+}
+.header-wrapper {
+	width: 100%;
+	height: auto;
+}
+.complete-wrapper{
+	width: 75%;
+	float: right;
+	margin: 40px 70px 0 0;
+}
+.congratulation-wrapper{
+	overflow: hidden;
+	width: 100%;
+	height: auto;
+}
+.congrats-title{
+	font-size: 20px;
+	float: left;
+	font-weight: bold;
+}
+.congrats-icon{
+	width: 25px;
+	height: 25px;
+	float: left;
+	margin-right: 10px;
+}
+.complete-txt{
+	font-size: 15px;
+	margin-top: 20px;
+}
+.account-name{
+	display: none;
+	font-size: 15px;
+}
+.order-summary-wrapper{
+	border: 1px solid #b3b3b3;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.order-summary-title{
+	font-size: 18px;
+	font-weight: bold;
+	float: left;
+	border-bottom: 1px solid #b3b3b3;
+	width: 90%;
+	padding: 10px;
+	height: auto;
+}
+button.print-wrapper{
+	float: right;
+	border-right: 1px solid #ececec;
+	width: 10%;
+	padding: 9.5px;
+	height: auto;
+	cursor: pointer
+	background-color: white;
+}
+.print-icon{
+	width: 25px;
+	height: 25px;
+	float: left;
+}
+.print{
+	float: left;
+	font-size: 15px;
+	margin: 5px 0 0 10px;
+}
+.ship-add-wrapper{
+	width: 100%;
+	padding: 0 20px;
+	overflow: hidden;
+	border-bottom: 1px solid #ececec;
+}
+.left-side{
+	float: right;
+	width: 25%;
+	height: auto;
+	margin: 20px;
+}
+.side-container{
+	border: 1px solid #b3b3b3;
+}
+.add-owner{
+	font-size: 15px;
+	font-weight: bold;
+	margin: 10px;
+}
+.ship-add{
+	font-size: 14px;
+	margin: 10px;
+}
+.order-table-wrapper{
+	float: left;
+	width: 70%;
+	height: auto;
+}
+.item-wrapper{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	padding: 10px;
+}
+.picture-wrapper{
+	width: 125px;
+	height: 125px;
+	overflow: hidden;
+	float: left;
+}
+.info-wrapper{
+	width: 58%;
+	margin-top: 10px;
+	margin-left: 10px;
+	height: auto;
+	overflow: hidden;
+	float: left;
+}
+p.item-name{
+	font-weight: bold;
+	margin-bottom: 0;
+	width: 90%;
+	cursor: pointer;
+	font-size: 14px;
+}
+.item-name:hover{
+	color: #125965;
+}
+p.item-seller{
+	font-size: 12px;
+	margin-top: 5px;
+}
+.unit-price-wrapper{
+	float: left;
+	margin-top: 10px;
+}
+p.unit-price{
+	font-size: 15px;
+}
+.quantity-wrapper{
+	margin-top: 10px;
+	float: left;
+	margin-right: 45px;
+}
+.cont-btn{
+	background-color: #125965;
+	color: white;
+	padding: 5px 55px;
+	border: none;
+	font-size: 15px;
+	margin: 20px 0;
+}
+p.item-header{
+	color: #b3b3b3;
+	font-weight: bold;
+	font-size: 15px;
+	float: left;
+	margin-left: 20px;
+	width: 70%;
+}
+p.qty-header{
+	color: #b3b3b3;
+	font-weight: bold;
+	font-size: 15px;
+	float: left;
+	width: 15%;
+}
+p.price-header{	
+	color: #b3b3b3;
+	font-weight: bold;
+	font-size: 15px;
+	float: left;
+}
+
+.total-wrapper{
+	width: 40%;
+	float: right;
+	height: auto;
+	overflow: hidden;
+}
+.subtotal-wrapper{
+	padding-top: 10px;
+}
+.subtotal-title{
+	float: left;
+	font-size: 13px;
+	width: 170px;
+}
+hr{
+	border: 1px solid #b3b3b3;
+	background-color: #b3b3b3;
+}
+.total-holder{
+	padding-top: 10px;
+	width: 100%;
+	border-top: 1px solid #b3b3b3;
+	float: right;
+	height: auto;
+	overflow: hidden;
+	padding-left: 60%;
+}
+.total-title{
+	float: left;
+	width: 170px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.total-amount{
+	font-size: 18px;
+	font-weight: bold;
+}
+p.order-number-title{
+	font-size: 15px;
+}
+p.order-number{
+	font-size: 20px;
+	font-weight: bold;
+}

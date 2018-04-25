@@ -1,0 +1,192 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+	font-size: 12px;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+.top-nav {
+	height: auto;
+	background: #125965;
+}
+/******* NAVLEFT *********/
+.nav-left {
+	float: left;
+	width: 330px;
+	padding: 2px;
+	margin: 0 0 0 50px;
+}
+.mobile-icon-text {
+	overflow: hidden;
+	float: left;
+	width: 40%;
+}
+.mobile-icon-wrapper {
+	width: 20px;
+	height: 15px;
+	float: left;
+	margin: 2px 0 2px 2px;
+}
+.mobile-icon {
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.mobile-text-wrapper {
+	float: left;
+	margin: 2px 0 0 5px;
+}
+a.text-links, .text-links {
+	padding: 0;
+	margin: 0;
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+}
+.mail-icon-text {
+	overflow: hidden;
+	float: left;
+	width: 49.5%;
+}
+.mail-icon-wrapper {
+	width: 25px;
+	height: 15px;
+	margin: 2px 0 2px 2px;
+	float: left;
+}
+.mail-icon {
+	width: 100%;
+	height: 100%;
+}
+.mail-text-wrapper {
+	float: left;
+	margin: 2px 0 0 5px;
+}
+/******* NAVRIGHT ********/
+.nav-right {
+	float: right;
+	width: 450px;
+	padding: 2px;
+	overflow: hidden;
+	margin: 0 0 0 0;
+}
+.sell-on-youfind-wrapper {
+	float: left;
+	margin: 0 50px 0 0;
+	height: 22px;
+}
+.user-icon {
+	width: 30px;
+	height: 22px;
+	float: left;
+	margin: 0 1px 0 0;
+}
+.login-text-wrapper {
+	float: left;
+	height: 22px;
+	line-height: 20px;
+}
+/*******    *************/
+.kandado-icon {
+	width: 30px;
+	height: 22px;
+	float: left;
+	margin: 0 1px 0 10px;
+}
+/** **/
+.create-account-text-wrapper {
+	float: left;
+	line-height: 20px;
+}
+
+/**** BOTTOM NAV ********/
+.bottom-nav {
+	clear: both;
+	padding: 2px;
+	overflow: hidden;
+}
+.logo-left {
+	overflow: hidden;
+	float: left;
+}
+.logo-wrapper {
+	width: 210px;
+	height: 45px;
+	margin: 0 0 0 45px;
+	float: left;
+}
+.logo {
+	width: 100%;
+	height: 100%;
+}
+.search-and-users-activity-right {
+	overflow: hidden;
+	float: right;
+	width: 700px;
+}
+.selection-search-wrapper {
+	float: left;
+	margin: 3px 0 0 0;
+}
+.search-bar-wrapper {
+	float: left;
+	margin: 3px 0 0 0;
+	width: 45%;
+}
+.search-box {
+	width: 100%;
+}
+#search_success {
+	clear: both;
+	width: 315px;
+	position: absolute;
+	margin: 37px 0 0 110px;
+	background: #125965;
+	border-radius: 4px;
+	text-align: left;
+	padding: 10px 10px 10px 10px;
+	color: #fff;
+	border: 1px solid #acadac;
+	display: none;
+}
+.wishlist-wrapper {
+	float: left;
+	margin: 9px 15px 0 20px;
+}
+.cart-wrapper {
+	position: relative;
+	float: left;
+	width: 30px;
+	height: 20px;
+	margin: 9px 0 0 0;
+}
+.cart-icon {
+	width: 100%;
+	height: 100%;
+}
+.cart-counter-wrapper {
+	float: left;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+.cart-counter {
+	background: gray;
+	border-radius: 50%;
+	width: 70%;
+	text-align: center;
+	margin: -2px 0 0 2px;
+}
+.youwallet-wrapper {
+	float: left;
+	margin: 2px 0 0 10px;
+}
+.ywallet-text {
+	font-size: 25px;
+}
+/************************/

@@ -1,0 +1,104 @@
+body {
+	width: 1349px;
+}
+
+.content-holder{
+	margin: 20px 60px;
+}
+
+.header-text{
+	height: 50px;
+	width: 70%;
+}
+
+p.sell-what{
+	float: left;
+	font-size: 25px;
+}
+
+p.required{
+	float: right;
+	font-size: 12px;
+	color: red;
+	margin-top: 10px;
+}
+
+.input-forms{
+	height: auto;
+	width: 70%;
+}
+
+.categories {
+	width: 100%;
+}
+
+select.allCategories{
+	border: 1px solid gray;
+	width: 100%;
+	height: 30px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+
+.input-type{
+	border: 1px solid gray;
+	width: 100%;
+	height: 30px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+
+textarea.overview{
+	border: 1px solid gray;
+	width: 100%;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	padding: 5px;
+	resize: none;
+}
+button.photo{
+	background-color: inherit;
+	border: 1px solid gray;
+	border-radius: 5px;
+	padding: 20px 30px 15px 30px;
+}
+
+hr.thin-line{
+	background-color: #4b4b4b;
+	border: .3px solid #4b4b4b;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.post-ad{
+	border: none;
+	background-color: #125965;
+	color: white;
+	font-size: 13px;
+	padding: 8px 50px;
+	margin-top: 20px;
+}
+
+.cancel{
+	border: #282828;
+	background-color: #7d7d7d;
+	color: white;
+	font-size: 13px;
+	padding: 8px 40px;
+	margin-top: 20px;
+	float: right;
+}
+.photo-holder {
+	background-color: inherit;
+	border: 1px solid gray;
+	border-radius: 5px;
+	width: 150px;
+	height: 150px;
+	padding: 1px;
+}
+#product_photo_wrapper {
+	width: 100%;
+	height: 100%;
+}

@@ -1,0 +1,156 @@
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    border: 1px solid #888;
+    width: 50%;
+    border-radius: 10px; 
+    overflow: hidden;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+span.closeThis {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+span.closeThis:hover,
+span.closeThis:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    background-color: #125965;
+    color: white;
+    width: 95.6%;
+    height: 25px;
+    padding: 15px;
+}
+
+.modal-title-text{
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.modal-input-content{
+    width: 97%;
+    padding: 20px 30px;
+    height: 160px;
+}
+
+.first-prod-title{
+    float: left;
+    width: 25%;
+    padding-top: 5px;
+    font-weight: bold;
+}
+
+.prod-title{
+    float: left;
+    width: 25%;
+    padding-top: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.prod-input{
+    float: left;
+    width: 65%;
+    margin-top: 10px;
+}
+
+.first-prod-input{
+    float: left;
+    width: 65%;
+}
+
+.input-style{
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid gray;
+    height: 20px;
+    padding: 5px;
+}
+
+.select-style{
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid gray;
+    height: 35px;
+    padding: 5px;
+}
+
+.input-submit{
+    float: right;
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 15%;
+    height: 30px;
+    padding: 5px;
+    margin-right: 48px;
+}
+
+.modal-submit{
+    width: 97%;
+    padding: 0px 20px 30px 20px;
+    height: 20px;
+}
+
+.myBtnClass{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+
+
+/********************/
+
+    .save-wrapper {
+        margin-top: 20px;
+        float: right;
+        margin-right: 20px;
+    }
+    .save-style {
+        width: 100px;
+        height: 30px;
+        background-color: #f5f5f5;
+        border: 1px solid #5a5a5a;
+    }
+
+
+/********************/

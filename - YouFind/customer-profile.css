@@ -1,0 +1,197 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+	font-size: 12px;
+}
+body {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+.content-wrapper{
+	height: auto;
+	overflow: hidden;
+	width: 100%;
+}
+
+.footer-wrapper {
+	background-color: #333333;
+	width: 100%;
+	height: auto;
+	margin-top: 50px;
+	overflow: hidden;
+}
+.whole-wrapper {
+	height: auto;
+}
+.header-wrapper {
+	width: 100%;
+	height: auto;
+}
+.nav-bar-wrapper{
+	float: left;
+	height: auto;
+	width: 15%;
+	margin: 20px 10px 0 70px;
+	font-size: 13px;
+}
+.right-content-wrapper{
+	float: right;
+	height: auto;
+	width: 73%;
+	margin: 20px 70px 0 10px;
+}
+
+p.user-name{
+	font-size: 20px;
+	margin: 0;
+}
+p.user-verification{
+	font-size: 13px;
+	margin: 0 0 20px 0;
+	color: green;
+}
+p.user-navigation{
+	font-size: 15px;
+	margin: 5px 0;
+	cursor: pointer;
+	color: gray;
+}
+.user-navigation:hover{
+	color: #125965;
+	font-weight: bold;
+}
+
+
+
+.left-upper .user-pic-holder-left input.upload-profile-picture {
+	margin: 10px 0 0 0; 
+	text-indent: 25px; 
+	width: 100%; 
+	color: transparent;
+}
+.left-upper div.user-pic-holder-left {
+	float: left;
+	width: 30%;
+	padding: 1px;
+	height: auto;
+}
+.left-upper div.user-pic-holder-left div.user-pic { 
+	border-radius: 50%; 
+	height: 100px; 
+	width: 100px;
+	margin: 0 auto;
+}
+.left-upper div.user-pic-holder-left div.user-pic .user-pic-image {	
+	border-radius: 50%; 
+	width: 100%; 
+	height: 100%;
+}
+.left-upper div.user-pic-holder-left div.user-pic .user-pic-image1 {	
+	border-radius: 50%; 
+	width: 100%; 
+	height: 100%;
+}
+.left-upper div.user-details-holder-right {
+	float: right;
+	width: 69%;
+	height: 104px;
+	padding: 10px 1px 1px 20px;
+}
+.left-upper div.user-details-holder-right .user-name {
+	margin: 0 0 0 0;
+	font-size: 16px;
+	width: 190px;
+	height: 24px;
+	float: left;
+}
+.left-upper div.user-details-holder-right .edit-profile-button {
+	float: left;
+}
+.left-upper div.user-details-holder-right .user-address {
+	margin: 1px 0 1px 0;
+	float: left;
+	font-size: 14px;
+	clear: both;
+	width: 100%;
+	height: 22px;
+}
+.left-upper div.user-details-holder-right .ratings-text {
+	clear: both;
+	font-size: 14px;
+	margin: 0;
+	width: 285px;
+	height: 20px;
+}
+.left-upper div.user-details-holder-right .star-ratings-image {
+	width: 100px;
+	height: 15px;
+	margin: 0;
+}
+
+.dashboard-title{
+	font-size: 25px;
+	font-weight: bold;
+}
+.insight-1{
+	border: 1px solid #6e6e6e;
+	padding: 10px;
+	width: 30%;
+	margin-right: 20px;
+	float: left;
+}
+.insight-ctr{
+	font-size: 30px;
+}
+.personal-info-wrapper,
+.insight-wrapper{
+	overflow:hidden;
+	margin-bottom: 30px;
+}
+
+.personal-info{
+	width: 100%;
+	height: auto;
+	padding: 10px;
+	overflow: hidden;
+	border: 1px solid #6e6e6e;
+}
+.personal-wrapper{
+	width: 50%;
+	height: auto;
+	float: left;
+	padding: 10px;
+	overflow: hidden;
+}
+
+.account-photo{
+	width: 120px;
+	height: 120px;
+	border: 1px solid #ececec;
+	padding: 3px;
+	border-radius: 3px;
+	float: left;
+}
+
+.account-info{
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.account-name{
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0;
+}
+.account-add{
+	font-size: 15px;
+	margin: 0;
+}
+
+.edit-profile{
+	cursor: pointer;
+	margin-top: 10px;
+	color: blue;
+}

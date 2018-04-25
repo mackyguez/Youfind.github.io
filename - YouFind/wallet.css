@@ -1,0 +1,187 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+	font-size: 12px;
+}
+body {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+.content-wrapper{
+	height: auto;
+	overflow: hidden;
+	width: 100%;
+}
+
+.footer-wrapper {
+	background-color: #333333;
+	width: 100%;
+	height: auto;
+	margin-top: 50px;
+	overflow: hidden;
+}
+.whole-wrapper {
+	height: auto;
+}
+.header-wrapper {
+	width: 100%;
+	height: auto;
+}
+.nav-bar-wrapper{
+	float: left;
+	height: auto;
+	width: 15%;
+	margin: 20px 10px 0 70px;
+	font-size: 13px;
+}
+.right-content-wrapper{
+	float: right;
+	height: auto;
+	width: 73%;
+	margin: 20px 70px 0 10px;
+}
+p.wallet-balance, p.balance-amount, p.currency{
+	margin: 0;
+	font-size: 13px;
+}
+p.balance-amount{
+	font-size: 50px;
+}
+.cash-in-btn{
+	padding: 8px 100px;
+	font-size: 15px;
+	border: 1px solid #b3b3b3;
+	background-color: inherit;
+}
+.cash-in-btn-wrapper{
+	margin: 20px 36%;
+}
+.cash-in-btn:hover{
+	background-color: #125965;
+	color: white;
+	border: none;
+}
+.wallet-wrapper{
+	width: 100%;
+	height: auto;
+	border: 1px solid #b3b3b3;
+	padding: 20px;
+}
+.points-wrapper{
+	margin: 20px 0 0 0;
+}
+.points-title{
+	font-size: 15px;
+	border: 1px solid #b3b3b3;
+	padding: 10px;
+	font-weight: bold;
+}
+.accumulated-wrapper{
+	border: 1px solid #b3b3b3;
+	width: 100%;
+}
+.accumulated-title{
+	font-size: 15px;
+	padding: 10px;
+	border-bottom: 1px solid #b3b3b3;
+}
+.accumulated-points{
+	font-size: 25px;
+}
+.point-rule{
+	font-size: 12px;
+	margin: 20px 10px;
+	text-align: justify;
+	border-top: 1px solid #ececec;
+	padding-top: 20px;
+}
+.redeem-btn{
+	padding: 8px 50px;
+	font-size: 13px;
+	border: 1px solid #b3b3b3;
+	background-color: inherit;
+}
+.redeem-btn-wrapper{
+	margin: 20px 42%;
+	display: block;
+}
+.redeem-action-btn:hover,
+.redeem-btn:hover,
+.enter-btn:hover{
+	background-color: #125965;
+	color: white;
+	border: none;
+}
+.recent-transactions-wrapper{
+	float: right;
+	width: 60%;
+	height: auto;
+}
+.recent-title{
+	padding: 10px 0 10px 0;
+	font-size: 15px;
+}
+p.user-name{
+	font-size: 20px;
+	margin: 0;
+}
+p.user-verification{
+	font-size: 13px;
+	margin: 0 0 20px 0;
+	color: green;
+}
+p.user-navigation{
+	font-size: 15px;
+	margin: 5px 0;
+	cursor: pointer;
+	color: gray;
+}
+.user-navigation:hover{
+	color: #125965;
+	font-weight: bold;
+}
+.enter-btn{
+	padding: 10px 30px;
+	margin: 10px;
+	background-color: inherit;
+	border: 1px solid #b3b3b3;
+}
+.redeem-action-btn{
+	padding: 10px 30px;
+	margin: 10px 0 ;
+	background-color: inherit;
+	border: 1px solid #b3b3b3;
+}
+.cash-in-input{
+	width: 70%;
+	height: 37px;
+	padding: 10px;
+}
+p.successful{
+	color: green;
+	font-size: 15px;
+	margin-left: 10%;
+}
+p.code-instruction{
+	font-size: 15px;
+}
+.input-wrapper{
+	float: left;
+	width: 65%;
+	overflow: hidden;
+}
+.input-sample{
+	float: right;
+	width: 30%;
+}
+.cash-in-class{
+	display: none;
+	overflow: hidden;
+	width: 100%;
+	margin-top: 20px;
+	border-top: 1px solid #b3b3b3;
+	padding-top: 20px;
+	height: auto;
+}

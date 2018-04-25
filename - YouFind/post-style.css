@@ -1,0 +1,130 @@
+body {
+	width: 1349px;
+	font-family: Century Gothic;
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+.content-holder{
+	margin: 20px 75px;
+	height: auto;
+	width: 100%;
+	margin-bottom: 50px;
+	overflow: hidden;
+}
+
+.header-text{
+	height: 50px;
+	width: 70%;
+}
+
+p.sell-what{
+	float: left;
+	font-size: 25px;
+}
+
+p.required{
+	float: right;
+	font-size: 12px;
+	color: red;
+	margin-top: 10px;
+}
+
+.input-forms{
+	height: auto;
+	width: 70%;
+}
+
+.categories {
+	width: 100%;
+}
+
+select.allCategories{
+	border: 1px solid gray;
+	width: 100%;
+	height: 30px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+
+.input-type{
+	border: 1px solid gray;
+	width: 98%;
+	height: 30px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	padding: 0 8px;
+}
+
+textarea.overview{
+	border: 1px solid gray;
+	width: 98.5%;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	padding: 5px;
+	resize: none;
+}
+button.photo{
+	background-color: inherit;
+	border: 1px solid gray;
+	border-radius: 5px;
+	padding: 20px 30px 15px 30px;
+}
+
+hr.thin-line{
+	background-color: #4b4b4b;
+	border: .3px solid #4b4b4b;
+	width: 100%;
+	margin: 20px 0;
+}
+
+.post-ad{
+	border: none;
+	background-color: #125965;
+	color: white;
+	font-size: 13px;
+	padding: 8px 50px;
+	margin-top: 20px;
+	float: left;
+	cursor: pointer;
+}
+
+.cancel{
+	border: #282828;
+	background-color: #7d7d7d;
+	color: white;
+	font-size: 13px;
+	padding: 8px 40px;
+	margin: 20px 0 0 20px;
+	float: left;
+	cursor: pointer;
+}
+.photo-holder {
+	background-color: inherit;
+	border: 1px solid gray;
+	border-radius: 5px;
+	width: 120px;
+	height: 120px;
+	margin-left: 10px;
+}
+#product_photo_wrapper {
+	width: 100%;
+	height: 100%;
+}
+label{
+	font-size: 15px;
+}
+
+.input-type-short, select{
+	border: 1px solid gray;
+	width: 7%;
+	height: 30px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	padding: 0 8px;
+}
